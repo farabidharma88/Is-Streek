@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB2277502819421E008B839A /* TargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB22774F2819421E008B839A /* TargetViewController.swift */; };
+		AB227752281943C3008B839A /* ProgressBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB227751281943C3008B839A /* ProgressBarCell.swift */; };
+		AB22775A281A9599008B839A /* NewTargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB227759281A9599008B839A /* NewTargetViewController.swift */; };
+		AB22775C281A9C1C008B839A /* AddIconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB22775B281A9C1C008B839A /* AddIconViewController.swift */; };
+		AB22775E281A9D08008B839A /* AddProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB22775D281A9D08008B839A /* AddProgressViewController.swift */; };
+		AB227760281A9F1E008B839A /* SymbolsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB22775F281A9F1E008B839A /* SymbolsCell.swift */; };
+		AB227766281ABA17008B839A /* AchivementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB227765281ABA17008B839A /* AchivementViewController.swift */; };
+		AB227768281ABA2A008B839A /* AchivementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB227767281ABA2A008B839A /* AchivementCell.swift */; };
 		ABC8E0DF281852C500B9141E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC8E0DE281852C500B9141E /* AppDelegate.swift */; };
 		ABC8E0E1281852C500B9141E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC8E0E0281852C500B9141E /* SceneDelegate.swift */; };
 		ABC8E0E3281852C500B9141E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC8E0E2281852C500B9141E /* ViewController.swift */; };
@@ -16,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB22774F2819421E008B839A /* TargetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetViewController.swift; sourceTree = "<group>"; };
+		AB227751281943C3008B839A /* ProgressBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarCell.swift; sourceTree = "<group>"; };
+		AB227759281A9599008B839A /* NewTargetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTargetViewController.swift; sourceTree = "<group>"; };
+		AB22775B281A9C1C008B839A /* AddIconViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIconViewController.swift; sourceTree = "<group>"; };
+		AB22775D281A9D08008B839A /* AddProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProgressViewController.swift; sourceTree = "<group>"; };
+		AB22775F281A9F1E008B839A /* SymbolsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsCell.swift; sourceTree = "<group>"; };
+		AB227765281ABA17008B839A /* AchivementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchivementViewController.swift; sourceTree = "<group>"; };
+		AB227767281ABA2A008B839A /* AchivementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchivementCell.swift; sourceTree = "<group>"; };
 		ABC8E0DB281852C500B9141E /* Is-Streek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Is-Streek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC8E0DE281852C500B9141E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABC8E0E0281852C500B9141E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +75,14 @@
 				ABC8E0DE281852C500B9141E /* AppDelegate.swift */,
 				ABC8E0E0281852C500B9141E /* SceneDelegate.swift */,
 				ABC8E0E2281852C500B9141E /* ViewController.swift */,
+				AB22774F2819421E008B839A /* TargetViewController.swift */,
+				AB227751281943C3008B839A /* ProgressBarCell.swift */,
+				AB227759281A9599008B839A /* NewTargetViewController.swift */,
+				AB22775B281A9C1C008B839A /* AddIconViewController.swift */,
+				AB22775F281A9F1E008B839A /* SymbolsCell.swift */,
+				AB22775D281A9D08008B839A /* AddProgressViewController.swift */,
+				AB227765281ABA17008B839A /* AchivementViewController.swift */,
+				AB227767281ABA2A008B839A /* AchivementCell.swift */,
 				ABC8E0E4281852C500B9141E /* Main.storyboard */,
 				ABC8E0E7281852C500B9141E /* Assets.xcassets */,
 				ABC8E0E9281852C500B9141E /* LaunchScreen.storyboard */,
@@ -138,9 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB227752281943C3008B839A /* ProgressBarCell.swift in Sources */,
 				ABC8E0E3281852C500B9141E /* ViewController.swift in Sources */,
+				AB227766281ABA17008B839A /* AchivementViewController.swift in Sources */,
+				AB22775A281A9599008B839A /* NewTargetViewController.swift in Sources */,
 				ABC8E0DF281852C500B9141E /* AppDelegate.swift in Sources */,
+				AB227760281A9F1E008B839A /* SymbolsCell.swift in Sources */,
 				ABC8E0E1281852C500B9141E /* SceneDelegate.swift in Sources */,
+				AB227768281ABA2A008B839A /* AchivementCell.swift in Sources */,
+				AB22775C281A9C1C008B839A /* AddIconViewController.swift in Sources */,
+				AB2277502819421E008B839A /* TargetViewController.swift in Sources */,
+				AB22775E281A9D08008B839A /* AddProgressViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
