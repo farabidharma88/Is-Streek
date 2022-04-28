@@ -8,6 +8,13 @@
 import Foundation
 import UIKit
 class AddProgressViewController: UIViewController {
+    
+    @IBOutlet weak var imageLung: UIImageView!{
+        didSet{
+            imageLung.image = UIImage(systemName: "lungs")
+            imageLung.tintColor = .systemOrange
+        }
+    }
     @IBOutlet weak var yesButton: UIButton!{
         didSet{
             yesButton.layer.shadowColor = UIColor.black.cgColor

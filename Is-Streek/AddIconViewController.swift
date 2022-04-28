@@ -23,4 +23,8 @@ class AddIconViewController: UIViewController, UICollectionViewDelegate, UIColle
         cell.setupView(indexForDraw: indexPath.row)
         return cell
     }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "icon", sender: indexPath)
+        
+    }
 }
