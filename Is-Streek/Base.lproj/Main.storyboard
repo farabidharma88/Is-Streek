@@ -310,6 +310,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="cVN-Ul-43r"/>
                     <connections>
+                        <outlet property="addButton" destination="My7-Ur-17o" id="vH1-EZ-q5W"/>
                         <outlet property="addImageButton" destination="uwR-ha-HR5" id="KrY-8Z-3l3"/>
                         <outlet property="popUpButton" destination="2la-ZY-SMT" id="8Ad-ru-Mtr"/>
                         <segue destination="3c1-h0-w1c" kind="show" identifier="addButtonID" id="sZw-8T-KSd"/>
